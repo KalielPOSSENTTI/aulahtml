@@ -17,3 +17,16 @@ nav li{
   display: inline;
   margin: 0 0 0 15px;
 }
+main{
+  width:940px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px;
+}
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
