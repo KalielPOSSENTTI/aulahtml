@@ -1,7 +1,9 @@
 header{
   background: #BBBBBB;
 }
-
+body{
+  background: lightgray;
+}
 .caixa{
   position: relative;
   width: 940px;
@@ -21,12 +23,34 @@ main{
   width:940px;
   margin: 0 auto;
 }
-form{
-  margin: 40px;
+form label, form legend{
+  margin: 0 0 10px;
+  display: block;
+  font-size: 20px;
 }
 .input-padrao{
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+.enviar{
+  width:40%;
+  padding:15px 0;
+  background:orange;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  border:none;
+  border-radius:5px;
+  transition:1s all;
+  cursor:pointer;
+}
+.enviar:hover{
+  background:darkorange;
+  transform:scale(1.2);
 }
