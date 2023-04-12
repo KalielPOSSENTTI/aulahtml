@@ -1,0 +1,42 @@
+header{
+  background:#8B4513;
+}
+body{
+  background:chocolate;
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+#cafe{
+  width:30%;
+}
+#coffee{
+  width: 30%;
+}
+
+#sus{
+  font-size:30px;
+}
+
+#sus2{
+  font-size:30px;
+}
+
+.titulo{
+  font-size:30px;
+}
+.principal{
+  background:sienna;
+}
