@@ -1,41 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>AtividadeIN</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-	 <header>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shadow Fight 3</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <header>
+		<center> <h1>Shadow Fight 3</h1> </center>
       <div class="caixa">
-      <h1> <img src="cafe.jpg" alt="cafe">
-
-      	<h2>Cafeteria dos Deuses </h2>
-
-          <nav>
-            <ul>
-              <li> <a href="index2.html">Formulário </a></li>
-              <li> <a href="index3.html">Produtos</a></li>
-             
-                  </ul>
-
-                </nav>
+    <center> <img src="images.jpeg" id="sf3"> </center>
       </div>
       </header>
+      <center>  <h2> O que é o Shadow Fight 3 </h2> </center>
 
-      <div class="principal">
-
-      <h3 class="titulo">Bem vindos à cafeteria dos Deuses</h3>
-
-      <p id="sus">Aqui você encontra os melhores cafés do mundo</p>
-      <p id="sus2">Nós temos café espresso, cappuccino, Irish coffee, caffè latte, macchiato, mocha, duplo, entre muitos outros </p>
-
-  </div>
-
-      <img src="coffee.png" id="coffee">
+			<h3 class="sus">Shadow Fight 3 é a sequência de uma franquia de game de luta para Android e iOS. Em uma perspectiva bidimensional, os jogadores enfrentam adversários em partidas de dois ou três rounds. Os controles de movimento se limitam a um joystick virtual na lateral esquerda da tela, enquanto na lateral oposta estão comandos para socar, chutar, lançar magias ou atirar armas. Diferentemente dos jogos anteriores, neste há um sistema de cartas para desbloquear e aprimorar armaduras, capacetes, armas, golpes e habilidades especiais. Além disso, o jogador tem opções para enfrentar a sequência de estágios da campanha, desafios individuais ou torneios multiplayer. Faça o download gratuito de Shadow Fight 3 e divirta-se em lutas incríveis enquanto desvenda os segredos das magias umbralinas.</h3>
 
 
-	
-</body>
-</html>
+			<h4>Para fazer alguma sugestão insira seu e-mail</h4>
+
+        <form>
+
+          <label for="email"> Email </label>
+          <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+          <label for="mensagem"> Mensagem</label>
+          <textarea name="text" rows="10" cols="70" id="mensagem" class="input-padrao" required> </textarea>
+
+          <fieldset>
+
+
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades sobre o jogo?</label>
+
+     </form>
+
+		 <input type="submit" value="Enviar formulário" class="enviar">
+
+			 <h5>Essas são as facções que você pode escolher</h5>
+			 <main>
+
+	<ul class="produtos">
+		<li>
+			<h2> Legião </h2>
+			<img src="legion.jpeg">
+			<p class="produto-descricao">Armas pesadas e implacáveis</p>
+		</li>
+
+		<li>
+			<h2> Dinastia </h2>
+			<img src="dinasty.jpeg">
+			<p class="produto-descricao">Armas rápidas e boa movimentação</p>
+		</li>
+
+		<li>
+			<h2> Arautos</h2>
+			<img src="arautos.jpeg">
+			<p class="produto-descricao">Armas fortes que carregam golpes críticos</p>
+		</li>
+	</main>
+
+     <fieldset>
+
+		 <legend>Qualm das facções você prefere ou gostaris de escolher?</legend>
+		 <label for="radio-legion"><input type="radio" name="contato" value="legion" id="radio-legion">Legião</label>
+		 <label for="radio-dinasty"><input type="radio" name="contato" value="dinasty" id="radio-dinasty">Dinastia</label>
+		 <label for="radio-arautos"><input type="radio" name="contato" value="arautos" id="radio-arautos">Arautos</label>
+
+	 </fieldset>

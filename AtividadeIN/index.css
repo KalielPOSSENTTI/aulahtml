@@ -19,24 +19,41 @@ nav li{
   display: inline;
   margin: 0 0 0 15px;
 }
-#cafe{
-  width:30%;
 }
-#coffee{
-  width: 30%;
+form label, form legend{
+  margin: 0 0 10px;
+  display: block;
+  font-size: 20px;
 }
-
-#sus{
-  font-size:30px;
-}
-
-#sus2{
-  font-size:30px;
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
 
-.titulo{
-  font-size:30px;
+.checkbox{
+  margin: 20px 0;
 }
-.principal{
-  background:sienna;
+.enviar{
+  width:40%;
+  padding:15px 0;
+  background:orange;
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+  border:none;
+  border-radius:3px;
+  transition:1s all;
+  cursor:pointer;
+}
+.enviar:hover{
+  background:darkorange;
+  transform:scale(1.1);
+}
+#sf3{
+  width:80%;
+}
+.sus{
+  background:#8B4513;
 }
