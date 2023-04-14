@@ -1,8 +1,8 @@
 header{
-  background:#8B4513;
+  background:#BBBBBB;
 }
 body{
-  background:chocolate;
+  background:lightgray;
 }
 .caixa{
   position: relative;
@@ -55,5 +55,16 @@ form label, form legend{
   width:80%;
 }
 .sus{
-  background:#8B4513;
+  background:#BBBBBB;
+}
+footer{
+  text-align: center;
+  background: #000000;
+  padding: 40px 0;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
